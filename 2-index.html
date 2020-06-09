@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Evaluation</title>
+    <link rel="icon" href="images\icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css\week.css">
+      <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+  <div class="question ninth">
+    <a style="text-decoration:none; font-size: 1vw;color:rgba(255,255,255,0.5);margin:0;" href="index.html">BACK</a>
+    <h1>Question 9</h1>
+    <div class="bor borm">
+      <form name="vpass">
+        <label for="time">Time of Entry:</label>
+        <input required type="time" name="time" placeholder="" min="05:00" max="21:30">
+        <label for="vhno">Vehicle Number:</label>
+        <input required type="text" name="vhno" placeholder="AB 00 XY 1111">
+        <label for="typ">Vehicle Type</label>
+        <select id="typ" name="typ" required>
+          <option value="Select">Select</option>
+          <option value="two-wheeler">Two-Wheeler</option>
+          <option value="four-wheeler">Four-Wheeler</option>
+          <option value="other">Other</option>
+        </select>
+
+        <label for="phno">Phone Number:</label>
+        <input required type="number" name="phno" placeholder="9123456789">
+        <!-- <a id="interl" href="#tenth">Validate Student ID</a> -->
+        <input type="submit" name="submit" value="submit" onclick="validateform1()">
+      </form>
+    </div>
+
+
+  </div>
+
+  <div class="question ten" id="tenth">
+    <a style="text-decoration:none; font-size: 1vw;color:rgba(255,255,255,0.5);margin:0;" href="index.html">BACK</a>
+    <h1>Question 10</h1>
+      <form name="idvalid">
+        <label for="name">Name:</label>
+        <input required type="text" name="name" placeholder="Enter Name">
+        <label for="rn">Roll No:</label>
+        <input required type="text" name="rn" placeholder="AA.BB.CC.QWET00000">
+        <p style="display:block;" id="dept"></p>
+        <label for="hds" onclick="finddep()">Hosteller/DayScholar</label>
+        <select name="hds">
+          <option name="hds" value="Select">Select</option>
+          <option name="hds" value="Hosteller">Hosteller</option>
+          <option name="hds" value="Dayscholar">Dayscholar</option>
+        </select>
+        <label for="bldgrp">Blood Group:</label>
+        <select required id="bldgrp" name="bldgrp" required>
+          <option name="bldgrp" value="Select">Select</option>
+          <option name="bldgrp" value="A+">A+</option>
+          <option name="bldgrp" value="A-">A-</option>
+          <option name="bldgrp" value="B+">B+</option>
+          <option name="bldgrp" value="B-">B-</option>
+          <option name="bldgrp" value="O+">O+</option>
+          <option name="bldgrp" value="O-">O-</option>
+          <option name="bldgrp" value="AB+">AB+</option>
+          <option name="bldgrp" value="AB-">AB-</option>
+        </select>
+        <label for="bday">Birthday:</label>
+        <input required type="date" name="bday" placeholder="1989-09-09" max="2003-12-31" min="1940-01-01">
+        <input type="submit" name="Submit" value="Submit" onclick="validateform2()">
+      </form>
+  </div>
+  <div class="question one eight" >
+    <a style="text-decoration:none; font-size: 1vw;color:rgba(255,255,255,0.5);margin:0;" href="index.html">BACK</a>
+    <h1>Question 8</h1>
+    <label for="rev">Enter Number to be reversed: [4-digit]</label>
+    <input type="number" min="1000" max="9999" id="rev" name="rev" placeholder="0000">
+    <textarea name="reved" id="reved"></textarea>
+    <button type="button" name="Reverse" onclick="revnum()">Reverse</button>
+
+  </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="script\weektwo.js" charset="utf-8"></script>
+  </body>
+</html>

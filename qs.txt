@@ -1,0 +1,25 @@
+19CSE103 – User Interface Design – Evaluation 5 – Java Script
+Design Web pages using HTML 5, CSS and Java Script for the following
+
+Week – 1: 2nd June 2020
+	1.	Design a form to accept a set of numbers from the user and perform arithmetic operations as required by the user (Add, Subtract, Multiply, Divide). In the form validate that all numbers are above zero and non negative. 
+	2.	Design a login form to accept User Name and Password. Provide a button named Encrypt. Encrypt the password by adding a constant to it and multiplying by another constant and display it in another field.  
+	3.	Design a login form to accept User Name and Password along with a Captcha (any random 4 digit number). Validate the Captcha entered. 
+	4.	Design a form to show the function like a calculator. 
+	5.	Design a form to accept any number in the range (1 to 99) and perform  any 10 Mathematical functions such as Absolute, Power, Exponentiation, Square, Square Root, Cube, etc. 
+
+Week – 2: 9th June 2020
+	6.	Design a form to accept First Name, Middle Name, Last Name and sow the concatenated string. In this form Give buttons to display names in Lower or Upper case as per User choice. 
+	7.	Design a form to accept Name, Age, Gender, Door No, Street Name, City, PinCode, Email ID,  and validate the data to the maximum possible extent. 
+	8.	Design a form to accept a 4 digit number and reverse the number.
+	9.	Design a form for a Vehicle Entry Pass at our Campus gate.
+	10.	Design a form to accept data as per your ID card and validate the data. 
+
+Week – 3: 16th June 2020
+	11.	Design a webpage to accept data of individuals who have to be tested for COVID-19. The page should accept personal details with proper validation, parameters to check COVID-19 should be accepted and if any value is above a particular Threshold, an alert should be raised immediately. 
+	12.	Design a webpage to accept a set of integers from the user until the user presses 999 and count the number of odd, even and multiples of 5. 
+	13.	Design a webpage to accept a set of strings from the user and count the number of two letter words, three letter words, four letter words and words of length above 4. 
+	14.	Design a webpage to accept a set of strings and count the number of vowels, consonants, upper case and lower case letters. 
+	15.	Design a webpage to accept a set of numbers and give the equivalent binary, and hexa decimal.
+
+ 

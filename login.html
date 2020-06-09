@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="icon" href="images\icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css\auth.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+
+  </head>
+  <body>
+    <div class="box">
+      <form name="login" onsubmit="window.location.replace=('index.html')">
+      <legend>Credentials :</legend>
+      <label for="uname">Username:</label>
+      <input type="text" id="uname" name="uname" placeholder="username" required><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required onclick="disp()"><br>
+      <div id="encrypt" onclick="encryptpw()">
+      Encrypt
+      </div>
+      <div class="captcha">
+        <span id="1" style="font-size: 25px;color: rgb(255,0,0);letter-spacing: 0.5em;font-style:italic;">1</span>
+        <span style="font-size:15px;color:rgb(0,0,255);"><sup><sup id="2">2</sup></sup></span>
+        <span style="font-size:25px;color:rgb(255,0,255);"><sub><sub><i><i id="3">3<i><i></sub></sub></span>
+        <span style="font-size:35px;color:rgb(255,100,0);"><b><i><i><i><b id="4">4</b></i></i></i></b></span>
+      </div>
+      <label for="captcha">Enter Captcha:</label>
+      <input type="text" id="captcha" name="captcha" required placeholder="0000"><br>
+      <input type="submit" value="Submit" onclick="validateform();">
+    </form>
+    </div>
+    <div class="back">
+    <a href="index.html#auth">Home Page</a>
+    </div>
+    <div class="">
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script/captcha.js"></script>
+  </body>
+</html>

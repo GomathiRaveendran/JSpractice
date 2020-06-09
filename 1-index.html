@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Evaluation</title>
+    <link rel="icon" href="images\icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css\week.css">
+
+  </head>
+  <body>
+    <div class="question one">
+      <a style="text-decoration:none; font-size: 1vw;color:rgba(255,255,255,0.5);" href="index.html">BACK</a>
+
+      <h1>Question 1</h1>
+      <div class="bor" >
+        <input type="number" placeholder="Enter Number" name="number1" id="number1" min="0" required>
+        <p id="operator">X</p>
+        <input type="number" placeholder="Enter Number" name="number2" id="number2" min="0" required>
+
+        <p>=</p>
+        <textarea type="number" placeholder="-" id="number3"></textarea>
+
+              <div class="opt" id="add" onclick="domath(1)">
+              <i class="fa fa-plus-circle" aria-hidden="true"></i>
+              </div>
+
+              <div class="opt" id="subt" onclick="domath(2)">
+              <i class="fa fa-minus-circle" aria-hidden="true"></i>
+              </div>
+
+              <div class="opt" id="mul" onclick="domath(3)">
+              <i class="fa fa-times-circle" aria-hidden="true"></i>
+              </div>
+
+              <div class="opt" id="div" onclick="domath(4)">
+              <i class="fa fa-minus-circle" style="transform: rotate(-40deg)" aria-hidden="true"></i>
+              </div>
+
+
+            </div>
+    </div>
+
+    <!--q2------------------------->
+      <div class="question four">
+        <a style="text-decoration:none;font-size: 1vw; color:rgba(255,255,255,0.5);" href="index.html">BACK</a>
+<h1>Question 4+5</h1>
+        <div class="calculator">
+          <textarea class="display" id="disp" placeholder="CASIO"></textarea>
+          <div class="row row1">
+            <div class="btn" onclick="calc(-3)" id="clr">
+              clr
+            </div>
+            <div class="btn" onclick="calc(-1)" id="bkspc">
+              ⌫
+            </div>
+            <div class="btn" onclick="calc(10)" id="eql">
+              =
+            </div>
+          </div>
+          <div class="row row2">
+            <div class="btn" onclick="calc(15)" id="fac">
+              x!
+            </div>
+            <div class="btn" onclick="calc(7)" id="7">
+              7
+            </div>
+            <div class="btn" onclick="calc(8)" id="8">
+              8
+            </div>
+            <div class="btn" onclick="calc(9)" id="9">
+              9
+            </div>
+            <div class="btn" onclick="calc(11)" id="+">
+              +
+            </div>
+          </div>
+
+          <div class="row row3">
+            <div class="btn" onclick="calc(16)" id="cube">
+              x<sup>3</sup>
+            </div>
+            <div class="btn" onclick="calc(4)" id="4">
+              4
+            </div>
+            <div class="btn" onclick="calc(5)" id="5">
+              5
+            </div>
+            <div class="btn" onclick="calc(6)" id="6">
+              6
+            </div>
+            <div class="btn" onclick="calc(12)" id="subtr">
+              -
+            </div>
+          </div>
+
+          <div class="row row4">
+            <div class="btn" onclick="calc(17)" id="sqrt">
+              √x
+            </div>
+            <div class="btn" onclick="calc(1)" id="1">
+              1
+            </div>
+            <div class="btn" onclick="calc(2)" id="2">
+              2
+            </div>
+            <div class="btn" onclick="calc(3)" id="3">
+              3
+            </div>
+            <div class="btn" onclick="calc(13)" id="mlt">
+              x
+            </div>
+          </div>
+
+          <div class="row row5">
+            <div class="btn" onclick="calc(18)" id="sqr">
+              x<sup>2</sup>
+            </div>
+            <div class="btn" onclick="calc(19)" id="inv">
+              x<sup>-1</sup>
+            </div>
+            <div class="btn" onclick="calc(0)" id="0">
+              0
+            </div>
+            <div class="btn" onclick="calc(99)" id=".">
+              .
+            </div>
+            <div class="btn" onclick="calc(14)" id="div">
+              /
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    <footer></footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="script/weekone.js" charset="utf-8"></script>
+  </body>
+</html>
